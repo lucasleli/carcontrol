@@ -1,0 +1,11 @@
+whenPostUserReturnSucess:
+  requestBody: >-
+    {
+      "name": "Julio Lima"
+    }
+
+whenPostUserReturnBadRequest:
+  requestBody: >-
+    {
+      "sobrenome": "Gomes"
+    }
